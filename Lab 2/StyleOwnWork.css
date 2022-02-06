@@ -1,0 +1,80 @@
+body {
+  background-color: #000;
+  background-image: url(img/clouds.png);
+  background-size: 1000px 1000px;
+}
+
+/* Change the position/style of my text */
+.Text {
+  background-color: lightgrey;
+  width: 351px;
+  border: 15px solid black;
+  padding: 36px;
+  /* font size and family */
+  font-size: 17px;
+  font-family: Arial;
+  /*placement*/
+  position: relative;
+  left: 700px;
+  top: 235px;
+}
+
+/* To make my heading a bit nicer */
+h1 {
+  margin-bottom: 0px;
+  font-size: 55px;
+  line-height: 1.0;
+  /*placement*/
+  position: absolute;
+  left: 304px;
+  top: 100px;
+  width: 1255px;
+  font-style: italic;
+}
+
+img {
+  /*placement*/
+  position: absolute;
+  left: 258px;
+  top: 190px;
+}
+
+/* Navbar links */
+.topnav ul {
+  padding: 0;
+  display: flex;
+  float: right;
+}
+
+.topnav ul li {
+  list-style: none;
+  padding: 10px 20px;
+}
+
+.topnav ul li a {
+  position: relative;
+  color: #FFF;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* To edit the list hover , colour , visited */
+.list{
+color: :purple;
+}
+
+a:visited{
+  color: green;
+}
+
+a:hover{
+  color: yellow;
+}
