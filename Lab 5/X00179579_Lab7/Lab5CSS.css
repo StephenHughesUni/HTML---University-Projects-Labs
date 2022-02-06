@@ -1,0 +1,52 @@
+/* Body to make sure no blank line + background colour + font style. */
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:  #C0BFBE;
+}
+
+/* The nav bar colour / ul style and placement */
+nav {
+  overflow: hidden;
+  background-color: #BDBBB9;
+  text-decoration: none;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+/* The nav bar buttons style, colours, alignment etc.*/
+nav a {
+  display: block;
+  color: #464141;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #777777;
+  color: #ffffff;
+}
+
+nav a.active {
+  background-color: #364F6b;
+  color: #ffffff;
+}
+/* Second active as home page is not white in CA screenshots - commented cause changed back to white - had to reupload.
+nav a.active2 {
+  background-color: #364F6b;
+}
+*/
+
+/* Footer Style and placement etc.*/
+footer {
+  display: flex;
+  background-color: #464141;
+  justify-content: center;
+  color: #ffffff;
+}
