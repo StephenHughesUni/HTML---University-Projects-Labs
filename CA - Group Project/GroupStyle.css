@@ -1,0 +1,33 @@
+/*  Body - pick font and background - set margin to 0 to avoid yellow outline      */
+body {
+  background-color: grey;
+  margin: 0;
+  font-family: Lato;
+}
+
+/*  The nav bar styling and positioning */
+nav {
+  background-color: Black;
+  text-align: center;
+  padding: 5px;
+}
+.navbar {
+  list-style: none;
+}
+.navbar li {
+  display: inline;
+  padding: 5em;
+}
+.navbar a {
+  color: red;
+  text-decoration: none;
+  font-size: large;
+}
+/*  when you hover over the selected page */
+li a:hover:not(.active) {
+  background-color: #ED00ED;
+}
+/*  If you were on said page you could have the activated page be green if you wished     */
+.active {
+  background-color: #4CAF50;
+}

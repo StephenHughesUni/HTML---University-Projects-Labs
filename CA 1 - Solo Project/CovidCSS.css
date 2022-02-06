@@ -1,0 +1,76 @@
+/*  Body - pick font and background - set margin to 0 to avoid yellow outline      */
+body {
+  background-color: #FFEE00;
+  margin: 0;
+  font-family: Lato;
+}
+/* My headding stylings */
+h1 {
+  background-color: #E61F26;
+  text-align: center;
+  color: white;
+}
+h2 {
+  color: black
+}
+
+/* The container box and image box   */
+.CoronaBox {
+  background-color: #00FF6E;
+  color: white;
+  max-width: 75%;
+  margin: auto;
+  padding: 15px;
+  overflow: hidden;
+  bottom: 0;
+}
+.boximage1 {
+  width: 50%;
+  float: left;
+}
+.boximage2 {
+  width: 50%;
+  float: right;
+}
+
+/*  The nav bar styling and positioning */
+nav {
+  background-color: #FF0090;
+  text-align: center;
+  padding: 5px;
+}
+.navbar {
+  list-style: none;
+}
+.navbar li {
+  display: inline;
+  padding: 5em;
+}
+.navbar a {
+  color: #0011FF;
+  text-decoration: none;
+  font-size: large;
+}
+/*  when you hover over the selected page */
+li a:hover:not(.active) {
+  background-color: #ED00ED;
+}
+/*  If you were on said page you could have the activated page be green if you wished     */
+.active {
+  background-color: #4CAF50;
+}
+/*  My footer styling keeping it at the bottom   */
+.site-footer {
+  background: #FF0090;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  margin: 0;
+}
+/*  List style - to keep font black - could use to change positioning / margin of the list. etc. */
+#list1 {
+  color: black;
+}
+#list2 {
+  color: black;
+}
